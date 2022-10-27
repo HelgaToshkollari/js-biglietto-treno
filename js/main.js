@@ -4,10 +4,11 @@ const percorso = parseInt(prompt("Inserisci il numero di chilometri da percorrer
 const pricePerKm = 0.21;
 const distance = percorso;
 
-let totalPrice = (pricePerKm * distance);
-
+const totalPrice = (pricePerKm * distance);
+const numDecimale = totalPrice;
 
 console.log(totalPrice);
+console.log(numDecimale.toFixed(2));
 
 
 
