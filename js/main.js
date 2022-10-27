@@ -12,7 +12,7 @@ const numPriceDiscount40 = (totalPrice * 0.6);
 if (age < 18) {
     console.log("Il passegero ha uno sconto del 20% sul biglietto");
     console.log(numPriceDiscount20.toFixed(2));
-} else if (age > 18 && age < 65) {
+} else if (age >= 18 && age < 65) {
     console.log(totalPrice.toFixed(2));
 
 } else if (age > 65){
